@@ -26,11 +26,11 @@ public class App
         int personPizza = slices / people;
         int leftovers = slices % people;
 
+        //Handles Output
         if(slices % 2 != 0) {
             System.out.println("You do not have an even number of slices");
             System.exit(0);
         }
-        //Output
         System.out.println("Each person gets " + personPizza + " pieces of pizza.");
         System.out.println("There are " + leftovers + " leftover pieces.");
     }
